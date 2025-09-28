@@ -172,21 +172,6 @@ Notes: We meet 10+ components if counting Buttons (Toolbar) + the above, but str
 ### Competitive Advantages
 - Addresses no‑code needs, demonstrates Kendo expertise, professional polish ✅
 
-## Hosting
-
-### Vercel (recommended)
-- Install Vercel CLI: `npm i -g vercel`
-- Build: `npm run build`
-- Deploy: `vercel` (project root). When asked, set:
-  - Framework: Other
-  - Output directory: `dist`
-- Or use the Vercel dashboard → New Project → Import your repo → Build Command `npm run build`, Output `dist`.
-
-### Netlify
-- Build: `npm run build`
-- Drag and drop the `dist/` folder to the Netlify app, or use CLI:
-  - `npm i -g netlify-cli`
-  - `netlify deploy --prod --dir=dist`
 
 ### GitHub Pages
 - `npm run build`
